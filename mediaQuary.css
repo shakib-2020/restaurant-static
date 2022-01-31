@@ -1,0 +1,206 @@
+@media(min-width:1368px){
+  .benner-text h2 {
+    font-size: 3.2rem;
+}
+.benner-text p {
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 1.7rem;
+}
+.menu-text-button,
+.download-menu {
+  font-size: 18px;
+}
+.product-pagination a {
+  width: 130px;
+  font-size: 20px;
+}
+.product-list-item {
+  font-size: 20px;
+}
+.product-desc {
+  font-size: 18px;
+}
+.contact-text {
+  font-size: 25px;
+}
+.contact-info p {
+  font-size: 22px;
+}
+.footer {
+  font-size: 20px;
+}
+#myBtn {
+  padding: 18px 20px;
+}
+}
+/* Tab view */
+@media (max-width: 991px){
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.7rem!important;
+    font-weight: bold;
+  }
+  /* banner */
+  .banner img {
+    display: none;
+  }
+  .benner-text {
+    display: none;
+  }
+  /* nevbar */
+  .visible-nev{
+    display: flex;
+    align-items: center;
+  }
+  .navbar-toggler {
+    font-size: 2rem !important;
+
+}
+  .navbar {
+    height: auto;
+    background: #f56218;
+    padding: 6px 0px;
+    flex-wrap: wrap;
+    justify-content: start;
+    position: sticky;
+    top: 0;
+  }
+  .nav-link {
+    color: white;
+    font-weight: bold;
+  }
+  .nav-link:hover{
+    color: #efb090;
+}
+  .nevItems {
+    flex-direction: column;
+  }
+  .nev-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nev-pagination p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .toggler-button:focus {
+    box-shadow: none;
+  }
+  .navbar-toggler-icon {
+    display: inline !important;
+  }
+  .logo {
+    width: 60%;
+  }
+  .empty-div {
+    display: none;
+  }
+  /* menu */
+  .menu-title {
+    padding: 0;
+  }
+  .menu-title h2 {
+    background: #ecdede;
+    font-weight: 400;
+    width: 90%;
+    text-align: center;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+  }
+  /* product-pagination */
+  .product-pagination {
+    overflow: scroll;
+    position: relative;
+    border-radius: 18px;
+    justify-content: center;
+  }
+  .product-pagination a {
+    border-radius: 18px;
+    padding: 16px;
+    margin: 10px;
+    font-size: 14px;
+  }
+  .product-pagination a:last-child {
+    display: none;
+  }
+  /* mobile view benner text  */
+  .mview-benner-text {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;    color: #702500;
+  }
+  .mview-benner-text a {
+    color: red;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    background: #f56218;
+    padding: 10px;
+    color: white;
+    border-radius: 41px;
+  }
+  .mview-benner-text a:hover {
+    color: rgb(175, 13, 13);
+    background: #bdbab8;
+  }
+  /* products card */
+  .product-img {
+    width: 70%;
+    height: 145px;
+  }
+  /* Contact  form */
+
+  .contact-img {
+    display: none;
+  }
+  .contact-form {
+    width: 80%;
+    margin: 0;
+  }
+  .contact-text,
+  .contact-info p {
+    font-size: 17px;
+  }
+  /* footer */
+  .footer {
+    margin-top: 20px;
+    height: 90px;
+    background: #a7a7a7;
+    color: #000000;
+  }
+  #myBtn {
+    padding: 11px 10px;
+    right: 10px;
+  }
+  
+
+}
+@media (max-width: 768px) {
+   /* product-pagination */
+   .product-pagination {
+    justify-content: start;
+  }
+}
+/* Moblie view */
+@media (max-width: 480px) {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1.4rem !important;
+  }
+  .mview-benner-text {
+     font-size: 14px;
+  }
+}
+
