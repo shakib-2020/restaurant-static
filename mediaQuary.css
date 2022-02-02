@@ -76,6 +76,8 @@
   }
   .nav-link:hover{
     color: #efb090;
+    transition: 0s !important;
+
 }
   .nevItems {
     flex-direction: column;
@@ -131,6 +133,9 @@
   .product-pagination a:last-child {
     display: none;
   }
+  .product-pagination a:hover {
+    transition: 0s;
+}
   /* mobile view benner text  */
   .mview-benner-text {
     display: block;
@@ -157,6 +162,9 @@
     width: 70%;
     height: 145px;
   }
+  .product-button:hover {
+    transition: 0s;
+  }
   /* Contact  form */
 
   .contact-img {
@@ -166,16 +174,22 @@
     width: 80%;
     margin: 0;
   }
+  .contact-info {
+    align-content: center;
+    flex-wrap: wrap;
+}
   .contact-text,
   .contact-info p {
     font-size: 17px;
+    text-align: center;
+
   }
   /* footer */
   .footer {
     margin-top: 20px;
     height: 90px;
-    background: #a7a7a7;
     color: #000000;
+    justify-content: center;
   }
   #myBtn {
     padding: 11px 10px;

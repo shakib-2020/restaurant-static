@@ -142,6 +142,8 @@ a{
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: #491802;
+
 }
 .menu-title h2{
     font-size: 2.5rem;
@@ -177,7 +179,7 @@ a{
 .product-title{
     margin: 0;
     font-size: 24px;
-    border-bottom: 1px solid #f56218;
+    border-bottom: 1px solid #491802;
     color: #f56218;
     font-weight: bold;
     padding-bottom: 6px;
@@ -186,12 +188,19 @@ a{
     margin: 0;
     font-size: 1rem;
     margin-top: 10px;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
 }
 .product-price{
     font-weight: bold;
     margin: 0;
     margin-bottom: 10px;
-    color: #f56218;
+    color: #491802;
+}
+.product-rating{
+    font-weight: bold;
+    color: #491802;
+
 }
 .product-button{
     padding: 4px;
